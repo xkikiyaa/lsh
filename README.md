@@ -104,7 +104,7 @@ Example configuration:
 
 ```bash
 alias gp='git push'
-alias clean='pacman -Qdtq | syca pacman -Rns -'
+alias clean='pacman -Qdtq | sudo pacman -Rns -'
 
 start = 'neofetch'
 ```
