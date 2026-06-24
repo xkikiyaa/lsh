@@ -176,14 +176,9 @@ ruby lsh.rb
 ### Install System-Wide
 
 ```bash
-install -Dm755 lsh.rb ~/.local/bin/lsh
+makepkg -si
 ```
 
-or
-
-```bash
-syca install -Dm755 lsh.rb /usr/bin/lsh
-```
 
 ---
 
